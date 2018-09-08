@@ -7,27 +7,27 @@ body{
 	background:rgba(255,255,255,1);
 	color:rgba(25,25,25,1);
 	font-family: 'Roboto', Helvetica, sans-serif;
-	font-weight:300;
+	font-weight:100;
 }
 
 h1, h2, h3, h4{
 	font-family: 'Roboto', sans-serif;
-	font-weight:700;
+	font-weight:300;
 }
 
 h1{
 	font-family: "Roboto", sans-serif;
-	font-weight: 600;
-	letter-spacing:0.1em;
+	font-weight: 250;
+	letter-spacing:0.25em;
 	color:rgba(255,255,255,0.9);
-	text-shadow: 1px 1px 0 #999;
+	text-shadow: 0,5px 0,5px 0 #999;
 	text-align:center;
 }
 
 h2{
-	letter-spacing:0.02em;
+	letter-spacing:0,09em;
 	color:rgba(255,255,255,0.6);
-	padding:0.2em 0;
+	padding:0,09em 0;
 	text-shadow: 1px 1px 0 #999;
 	text-align:center;
 }
@@ -35,14 +35,14 @@ h2{
 h3{
 	letter-spacing:0.2em;
 	color:rgba(0,0,0,.75);
-	padding:2em 0 0.6em 0;
-	text-shadow: 1px 1px 0 #ccc;
+	padding:2.5em 0 0.6em 0;
+	text-shadow: 0px 0px 0 #ccc;
 	text-align:center;
 }
 
 h4, h5, h6{
 	font-weight:left;
-	font-weight:600;
+	font-weight:700;
 }
 
 #contenido{width:98%; margin:1% auto;}
@@ -72,59 +72,37 @@ video{
 #somos{
 	width:100%;
 	background:rgb(250,250,250);
-	margin-bottom:2%;
+	margin-bottom:3%;
 	}
 
 .dupla{
-	width:46%;
-	padding:2%;
+	width:100%;
+	padding:1%;
 	float:left;
 	background-color:red;
 	}
 
 .dupla a{
-	color:rgba(255,0,0,0.75);
+	color:rgba(51,51,102,0.75);
 	text-decoration:none;
-	font-weight:700;
+	font-weight:500;
 }
 
-.dupla a:hover{
-	color:rgba(255,0,0,1);
-	text-decoration:underline;
-}
 
 .primera{
-	min-height:300px;
+	min-height:200px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
+	background-color:rgba(204,255,255,1);
 	background-image:url('media/dupla-01.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
 }
-.primera h4{padding: 2% 40% 1% 2%;}
+.primera h4{padding: 1% 40% 1% 2%;}
 
 .primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
 
 .primera p{padding: 2% 40% 2% 2%;}
-
-.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
-
-.segunda{
-	min-height:300px;
-	text-align:right;
-	background-color:rgba(231,240,239,1);
-	background-image:url('media/dupla-02.jpg');
-	background-position:top left;
-	background-repeat:no-repeat;
-	background-size:auto 100%;
-}
-
-.segunda h4{padding: 2% 2% 1% 40%;}
-
-.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
-
-.segunda p{padding: 2% 2% 2% 40%;}
 
 .segunda address{padding: 2% 2% 2% 40%; font-size:0.9em; font-style:normal;}
 
@@ -144,7 +122,7 @@ video{
 	margin:1%;
 	color:#333;
 	background:white;
-	box-shadow:0 0 5px rgba(0,0,0,.1);
+	box-shadow:0 0 5px rgba(1,1,0,.1);
 }
 
 .item:hover{
@@ -163,21 +141,21 @@ video{
 }
 
 .item:hover figure img{
-	transform:scale(1.28);
+	transform:scale(1.26);
 	filter: grayscale(0);
-	transition:all ease-out 0.9s;
+	transition:all ease-out 0.8s;
 }
 
 .item h4{
 	font-size:1em;
-	letter-spacing:0.025em;
-	margin:5% 5% 3% 5%;
+	letter-spacing:0.02em;
+	margin:5% 5% 1% 5%;
 }
 
 .item p{
-	font-size:0.875em;
+	font-size:0.975em;
 	letter-spacing:0.05em;
-	margin:2% 5% 6% 5%;
+	margin:1% 5% 6% 5%;
 }
 
 footer{
@@ -185,7 +163,7 @@ footer{
 	padding:3em 0 1em 0;
 	text-align:center;
 	font-family: 'Montserrat', sans-serif;
-	font-weight:700;
+	font-weight:100;
 }
 
 footer p{
@@ -195,8 +173,8 @@ footer p{
 	}
 
 footer hr{
-	border:2px solid #000;
-	width:10%;
+	border:1px solid #000;
+	width:7%;
 	margin:2em auto 0 auto;
 	}
 
